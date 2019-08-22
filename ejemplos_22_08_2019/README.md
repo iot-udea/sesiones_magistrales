@@ -23,3 +23,7 @@ https://github.com/SikkandarSulaiman/RPi-simplest-MP3-player/blob/master/playMP3
 
 https://projects.raspberrypi.org/en/projects/gpio-music-box/5
 
+Ejemplos elegantes:
+http://www.python-exemplary.com/index_en.php?inhalt_links=navigation_en.inc.php&inhalt_mitte=raspi/en/sound.inc.php
+
+

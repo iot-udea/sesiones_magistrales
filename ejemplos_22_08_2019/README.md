@@ -1,4 +1,6 @@
+# Ejemplos adicionales #
 
+<!---
 
 [Python Programming Tutorial: Getting Started with the Raspberry Pi](https://learn.sparkfun.com/tutorials/python-programming-tutorial-getting-started-with-the-raspberry-pi/experiment-2-play-sounds)
 
@@ -27,3 +29,4 @@ Ejemplos elegantes:
 http://www.python-exemplary.com/index_en.php?inhalt_links=navigation_en.inc.php&inhalt_mitte=raspi/en/sound.inc.php
 
 
+-->

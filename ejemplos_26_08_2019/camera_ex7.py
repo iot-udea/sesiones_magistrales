@@ -10,5 +10,5 @@ with picamera.PiCamera() as camera:
     camera.image_effect = 'gpen'
     # Give the camera some time to adjust to conditions
     time.sleep(2)
-    camera.capture('foo.jpg')
+    camera.capture('foo.jpg',use_video_port = True)
     camera.stop_preview()

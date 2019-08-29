@@ -1,13 +1,14 @@
 import time
 import picamera
 
+
 with picamera.PiCamera() as camera:
-    camera.resolution = (640, 480)
-    camera.start_preview()
-    start = time.time()
-    camera.capture_sequence((
-        'image%03d.jpg' % i
-        for i in range(120)
-        ), use_video_port=True)
-    print('Captured 120 images at %.2ffps' % (120 / (time.time() - start)))
-    camera.stop_preview()
+  camera.start_preview()
+  time.sleep(2)
+  camera.capture_sequence([
+   'image1.jpg',
+   'image2.jpg',
+   'image3.jpg',
+   'image4.jpg'
+  ], use_video_port=True)
+  camera.stop_preview()
